@@ -3115,9 +3115,9 @@ SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 
 
-// X712A https://www.zigbee2mqtt.io/devices/X711A.html
+// X711A https://www.zigbee2mqtt.io/devices/X711A.html
 $par1['zigbeeModel'] = 'X711A';
-$par1['model'] = "X712A";
+$par1['model'] = "X711A";
 $par1['type'] = "switch";
 $par1['vendor'] = "Lonsonho";
 $par1['description'] = "1 gang switch";
@@ -3130,6 +3130,42 @@ SQLInsert('zigbee2mqtt_devices_list', $par1);
 // X712A https://www.zigbee2mqtt.io/devices/X712A.html
 $par1['zigbeeModel'] = 'X712A';
 $par1['model'] = "X712A";
+$par1['vendor'] = "Lonsonho";
+$par1['type'] = "switch";
+$par1['description'] = "Smart light switch - 2 gang without neutral wire";
+$par1['supports'] = "on/off";
+$par1['extend'] = "";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
+
+// X713A https://www.zigbee2mqtt.io/devices/X713A.html
+$par1['zigbeeModel'] = 'X713A';
+$par1['model'] = "X713A";
+$par1['vendor'] = "Lonsonho";
+$par1['type'] = "switch";
+$par1['description'] = "Smart light switch - 3 gang without neutral wire";
+$par1['supports'] = "on/off";
+$par1['extend'] = "";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
+
+// X701A https://www.zigbee2mqtt.io/devices/TS0001.html
+$par1['zigbeeModel'] = 'X701A';
+$par1['model'] = "X701A";
+$par1['type'] = "switch";
+$par1['vendor'] = "Lonsonho";
+$par1['description'] = "1 gang switch";
+$par1['extend'] = "";
+$par1['supports'] = "on/off";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
+
+// X702A https://www.zigbee2mqtt.io/devices/TS0002.html
+$par1['zigbeeModel'] = 'X702A';
+$par1['model'] = "X702A";
 $par1['type'] = "switch";
 $par1['vendor'] = "Lonsonho";
 $par1['description'] = "2 gang switch";
@@ -3138,7 +3174,6 @@ $par1['supports'] = "on/off";
 $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
-
 
 // X703A
 $par1['zigbeeModel'] = 'X703A';
